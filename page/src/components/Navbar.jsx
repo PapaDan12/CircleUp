@@ -15,7 +15,7 @@ const Navbar = () => {
           </Link>
           {/* Hamburger for mobile */}
           <button
-            className="md:hidden text-blue-950 focus:outline-none"
+            className="lg:hidden text-blue-950 focus:outline-none"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
@@ -24,13 +24,13 @@ const Navbar = () => {
             </svg>
           </button>
           {/* Desktop Menu */}
-          <ul className="hidden md:flex space-x-4 text-blue-950 font-semibold">
+          <ul className="hidden lg:flex space-x-4 text-blue-950 font-semibold">
           <Link to="/two">  <li className='cursor-pointer'>FEATURES</li> </Link>
           <Link to="/three"> <li className='cursor-pointer'>PRIVACY</li></Link>
           <Link to="/fourth"> <li className='cursor-pointer'>HELP CENTER</li></Link>
           <Link to="/fifth">  <li className='cursor-pointer'>BLOG</li> </Link>
           </ul>
-          <div className="hidden md:flex space-x-2">
+          <div className="hidden lg:flex space-x-2">
             <Link to="/seventh">
             <p className="text-blue-950 bg-white px-2 py-2 rounded-full font-semibold cursor-pointer hover:bg-gray-300 transition-colors duration-300">
               LOG IN
@@ -53,12 +53,16 @@ const Navbar = () => {
               <Link to="/fifth">  <li className='cursor-pointer'>BLOG</li> </Link>
             </ul>
             <div className="flex flex-col space-y-2 mt-2">
+              <Link to="/seventh">
               <p className="text-blue-950 bg-white px-2 py-2 rounded-full font-semibold cursor-pointer hover:bg-gray-300 transition-colors duration-300">
                 LOG IN
               </p>
+              </Link>
+              <Link to="/sixth">
               <p className="bg-blue-950 text-white rounded-full px-2 py-2 font-semibold cursor-pointer hover:bg-blue-800 transition-colors duration-300 ">
                 SIGN UP
               </p>
+              </Link>
             </div>
           </div>
         )}

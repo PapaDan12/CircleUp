@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
-import One from './pages/one'
+import One from './pages/One'
 import Two from './pages/Two'
 import Three from './pages/Three'
 import Fourth from './pages/Fourth'
