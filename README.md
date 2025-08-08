@@ -48,10 +48,15 @@ src/
 
 ## 📸 Screenshots
 
+<<<<<<< HEAD
 Visual previews of key CircleUp pages:
 
 ### 🧩 Features Page
 ![Features Page](./screenshots/features-page.png)
+=======
+![Features Page](./screenshots/pic.jpeg)
+![Blog Page](./screenshots/pic2.jpeg)
+>>>>>>> cb5f86c2aabcce83253b89bdf476c5fd01aef3e5
 
 ---
 
