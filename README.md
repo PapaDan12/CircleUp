@@ -30,8 +30,8 @@
 
 ## 📸 Screenshots
 
-> *(Add screenshots of your UI here once your design is ready)*
-![Features Page](./screenshots/features-page.png)
+![Features Page](./screenshots/pic.jpeg)
+![Blog Page](./screenshots/pic2.jpeg)
 
 ---
 
