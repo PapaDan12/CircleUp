@@ -4,12 +4,14 @@ import Footer from '../components/Footer'
 import Login from '../components/Login'
 
 
+
 const Seventh = () => {
   return (
     <div>
       <Navbar />
       <Login />
       <Footer />
+      
     </div>
   )
 }
